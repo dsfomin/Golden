@@ -1,12 +1,18 @@
-body {
-	font-family: Arial, sans-serif;
-	padding: 0;
-	margin: 0;
-	color: #222222;
+header {
+	background: url(../img/background_logo.jpg) no-repeat center top / cover;
+	height: 100vh;
 }
 
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #222;
+}
+
+
 .clearfix:after {
-	content:'';
+	content: '';
 	display: table;
 	width: 100%;
 	clear: both;
@@ -14,12 +20,6 @@ body {
 
 div {
 	box-sizing: border-box;
-}
-
-header {
-	background: url(../img/first-bg.jpg) no-repeat center top / cover;
-	
-	height: 100vh;
 }
 
 .container {
@@ -30,6 +30,7 @@ header {
 .logo {
 	margin-top: 41px;
 	float: left;
+	background-size:cover;
 }
 
 nav {
@@ -49,16 +50,16 @@ nav {
 	margin-right: 41px;
 }
 
-.menu a {
+.menu li a {
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 14px;
 }
 
-.titles__first {
+.titles_first{
 	font-size: 40px;
-	color: #fff;
+	color:#fff;
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 180px;
@@ -66,20 +67,20 @@ nav {
 
 h1 {
 	font-size: 75px;
-	color: #fff;
+	color:#fff;
 	text-transform: uppercase;
 	text-align: center;
 	margin: 15px;
 }
 
-.button {
+.button	{
 	background: #fed136;
 	color: #484543;
 	border-radius: 3px;
 	display: block;
 	width: 240px;
 	padding: 20px 0;
-	margin: 0 auto;
+	margin: 0px auto;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
@@ -101,48 +102,57 @@ h1 {
 }
 
 .title p {
-	color: #777777;
+	color: #777;
 	text-align: center;
 	font-size: 16px;
-	margin-top: 5px;
+	margin-top: 10px;
+}
+
+.smaller {
+	width: 74px;
 }
 
 .services {
 	margin-top: 80px;
 }
 
-.services__item	{
+.services_item {
 	width: 270px;
-	float: left;
+	float:left;
 	text-align: center;
 }
 
-.services__item h3 {
+.services_item h3 {
 	font-size: 18px;
 	margin-bottom: 5px;
 }
 
-.services__item p {
-	color: #777777;
+
+.services_item p {
+	color: #777;
 	font-size: 14px;
 	line-height: 1.55em;
 }
 
-.services__item:last-child {
-	float: right;
+
+.services_item:last-child {
+	float:right;
 }
 
-.services__item:nth-child(2) {
+.services_item:nth-child(2) {
 	margin-left: 60px;
 }
-
 #services {
 	padding-bottom: 120px;
 }
 
 #portfolio {
-	background: #f7f7f7;
 	padding-bottom: 120px;
+	background: #f7f7f7;
+}
+
+.smallern {
+	width: 240px;
 }
 
 .works {
@@ -159,4 +169,46 @@ h1 {
 
 .works img:last-child {
 	float: right;
+}
+
+.blocks {
+	padding-top: px;
+}
+
+.title_block1 {
+	float:left;
+	text-align: right;
+	line-height: 1.6em;
+	width: 300px;
+}
+
+.block_type1 {
+	padding-top: 45px;
+}
+
+.block_type2 {
+	padding-top: 45px;
+}
+
+.block_type1 img {
+	margin-left: 75px;
+	margin-top: 18px;
+}
+
+.title_block2 {
+	float: right;
+	text-align: left;
+	line-height: 1.6em;
+	width: 300px;
+}
+
+.block_type2 img {
+	margin-left: 375px;
+	margin-top: 18px;
+}
+
+.copyright {
+	text-align: center;
+	padding-bottom: 115px;
+
 }
